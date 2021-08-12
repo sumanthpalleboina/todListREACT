@@ -1,0 +1,29 @@
+.todo-item {
+  font-family: 'Roboto';
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600px;
+  width: 70vw;
+}
+.button-container {
+  width: 30vw;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+.delete-button {
+  color: #ff0b37;
+  background-color: white;
+  font-weight: bold;
+  border: 1px solid #ff0b37;
+  width: 100px;
+  height: 32px;
+  border-radius: 13px;
+  cursor: pointer;
+  outline: none;
+}
